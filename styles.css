@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('images/picture1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.countdown-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Ensuring some transparency */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.big-seconds {
+    font-size: 3rem;
+    color: red;
+}
+
+.green-text {
+    color: green;
+}
+
+.mantra-text {
+    margin-top: 20px;
+    color: #555;
+    font-size: 1.5rem;
+}
